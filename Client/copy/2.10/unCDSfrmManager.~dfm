@@ -1,0 +1,27 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Left = 192
+  Top = 119
+  Height = 263
+  Width = 401
+  object dsPComponents: TDataSetProvider
+    DataSet = DM.qryComponents
+    Constraints = True
+    Left = 208
+    Top = 32
+  end
+  object cdsComponents: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 112
+    Top = 32
+  end
+  object DataSource1: TDataSource
+    Left = 112
+    Top = 112
+  end
+  object DataSource2: TDataSource
+    Left = 208
+    Top = 104
+  end
+end
